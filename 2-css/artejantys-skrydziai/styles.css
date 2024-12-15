@@ -1,0 +1,238 @@
+body {
+    background-color: #FFFFFF;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+header {
+    width: 920px;
+    height: 213px;
+    gap: 0px;
+    background-size: cover;
+    background-image: url("images/lektuvas.jpeg");
+    position: relative
+}
+
+h1 {
+    width: 800px;
+    height: 74px;
+    left: 196px;
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 100px;
+    font-weight: 200;
+    line-height: 234.38px;
+    text-align: left;
+    position: relative;
+    left: 80px;
+    color: #FFFFFF;
+    color: transparent;
+  text-shadow: 0px 4px 2px white, 0 0 0 #0000005e;
+    position: absolute;
+}
+
+.page-block {
+    width: 680px;
+    height: 1000px;
+    top: 25px;
+    left: 78px;
+    gap: 40px;
+    opacity: 0px;
+    position: relative;
+}
+
+#prmh {
+    width: 905px;
+    height: 34px;
+    opacity: 0px;
+    font-family: 'Roboto';
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+    color: #073590;
+
+}
+
+#prmp {
+    width: 371px;
+    height: 23px;   
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 23.44px;
+    text-align: left;
+    color: #807D7D;
+
+
+}
+
+.managebooking {
+    background: #E6F7FF;
+    border: 1px solid #91D5FF;
+    position: relative;
+    width: 678px;
+    height: 45px;   
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#icona {
+    position: relative;
+    top: 17px;
+    left: 7px;
+}
+
+#booking {
+    width: 700px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding: 0px 0px 0px 30px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.pilkas-blokas {
+    background-color: #F5F5F5;
+    position: inherit;
+    width: 680px;
+    height: 769px;
+    gap: 32px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    position: relative;
+}
+
+#skelbimas1 {
+    width: 344px;
+    height: 305px;
+    padding: 4px 4px 6px 4px;
+    gap: 32px;
+    border-radius: 24px;
+    opacity: 0px;
+    background: #E0F0FC;
+    position: relative;
+    top: 20px;
+    left: 180px;
+    text-align: center;
+}
+
+#pirmafoto {
+    width: 82%;
+    position: relative;
+    top: 20px;
+}
+
+#pirmadata {
+    position: relative;
+    right: 100px;
+    font-family: 'Roboto';
+    top: 30px;
+}
+
+#pirmasskrydis {
+    position: relative;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18.13px;
+    text-align: left;
+    left: 30px;
+    top: 10px;
+}
+
+#pirmop {
+    width: 294px;
+    height: 21px;
+    font-size: 12px;
+    position: relative;
+    text-align: left;
+    left: 30px;
+    color: #807D7D;
+    font-family: 'Roboto';
+
+}
+
+#mygtukasp {
+    width: 164px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #073590 21.43%, #3D7BF5 83.33%);
+    color: white;
+    text-align: left;
+    position: relative;
+    right: 60px;
+}
+
+#skelbimas2 {
+    width: 344px;
+    height: 305px;
+    padding: 4px 4px 6px 4px;
+    gap: 32px;
+    border-radius: 24px;
+    opacity: 0px;
+    background: #F4E7FD;
+    position: relative;
+    top: 40px;
+    left: 180px;
+    text-align: center;
+}
+
+#antrafoto {
+    width: 82%;
+    position: relative;
+    top: 20px;
+}
+
+#antradata {
+    position: relative;
+    right: 100px;
+    font-family: 'Roboto';
+    top: 30px;
+}
+
+
+#antrasskrydis {
+    position: relative;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18.13px;
+    text-align: left;
+    left: 30px;
+    top: 10px;
+}
+
+#antrop {
+    width: 294px;
+    height: 21px;
+    font-size: 12px;
+    position: relative;
+    text-align: left;
+    left: 30px;
+    color: #807D7D;
+    font-family: 'Roboto';
+}
+
+#mygtukasd {
+    width: 164px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #073590 21.43%, #3D7BF5 83.33%);
+    color: white;
+    text-align: left;
+    position: relative;
+    right: 60px;
+}

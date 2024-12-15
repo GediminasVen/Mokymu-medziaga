@@ -1,0 +1,105 @@
+@media screen and (max-width: 768px) and (min-width: 376px) { 
+   nav .title {
+    padding-left: 5%;
+   }
+   nav ul {
+    gap: 10px;
+    padding-right: 5%
+   }
+
+   header .container {
+    flex-direction: column-reverse;
+   }
+
+   header .info-part {
+    width: 100%;
+    padding: 50px 0 50px 0;
+    justify-content: center;
+   }
+
+   header .info {
+    width: 50%
+   }
+
+   header .welcome-img {
+    width: 100%;
+   }
+
+   section .container .comment {
+    padding: 0 5%;
+   }
+
+   section .container .title h3 {
+    font-size: 35px;
+    text-align: left;
+   }
+
+   section .card {
+    width: calc((100% - 2 * 24px) / 2)
+   }
+
+   section .card .price {
+    background-color: white;
+    padding: 0;;
+   }
+
+   section .card .price p,
+   section .card .price span
+   {
+    padding: 0;;
+    font-size: 16px;
+   }
+
+   section .card .price p {
+    padding-left: 15%;
+
+   }
+
+   section .card .button-s {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 8px;;
+
+   }
+   section .card .button-s .first,
+   section .card .button-s .second
+   {
+    width: 80%;
+    max-width: unset;;
+   }
+
+   section .card .button-s .first {
+    background-color: #e7852b;
+    border: none;;
+   }
+
+   section .card h4 {
+    font-size: 25px;
+    padding-left: 15%
+   }
+
+   section .container .card {
+    padding: 0;
+   }
+
+   footer .container .info {
+    flex-wrap: wrap;
+   }
+    
+   footer .container .info .brackets1 {
+    width: 100%;
+   }
+
+   footer .container .info .brackets2 {
+    width: 45%;
+   }
+   footer .container .info .brackets3 {
+    width: 45%;
+   }
+
+
+
+
+}

@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    header .col-12 h1 {
+        font-size: 54px;
+        line-height: 63px;
+        font-weight: 500;
+    }
+
+    header .col-12 p {
+        font-size: 26px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+
+
+    .general-info-first, .general-info-first .text-col h3, .general-info-first .text-col p{
+        text-align: center;
+    }
+
+    .work-info .row{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .work-info .row .col-sm-12 {
+        margin-bottom: 25px;
+    }
+
+    .input-group {
+        flex-direction: column;
+        border-radius: 5px
+        
+    }
+
+    div.input-group .form-control {
+        width: auto;
+        border-radius: 5px !important;
+        border-top-right-radius: unset;
+        border-bottom-right-radius: unset;
+    
+    }
+
+    div.input-group button {
+        border-radius: 5px !important;
+        margin-top: 15px;
+    }
+
+
+
+}   

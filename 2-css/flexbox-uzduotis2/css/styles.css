@@ -1,0 +1,117 @@
+#page-container {
+    max-width: 1200px;
+   margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+header {
+    background-image: url(../img/headerio.jpeg);
+    height: 300px;
+    background-size: cover;
+}
+
+header .top-nav {
+    padding: 25px 20px;
+
+}
+
+header .top-nav, header .top-nav nav ul {
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+header .top-nav .logo img {
+
+}
+
+header .top-nav nav ul li {
+    list-style: none;
+    color: #fff;
+    font-weight: 800px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 15px;
+    padding: 20px;
+}
+
+.top-nav nav ul li:hover {
+background-color: #e12e60; 
+border-radius: 5px;
+    
+}
+header .heading {
+    width: 400px;
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+
+header .heading h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+main .first-block {
+    padding: 25px;
+    background: #EF5D69;
+}
+
+main .first-block p {
+
+    background: #FFFFFFCC;
+    padding: 40px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+main .second-block {
+    background: #FCDFE1;
+    padding: 50px;
+}
+
+
+.second-block .text {
+    margin-right: 15px;
+    background: #FFFFFF;
+    padding: 30px 20px;
+    width: 40%;
+
+}
+
+#daile {
+width: 60%;
+
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+#apatinis {
+    margin-left: 30px;
+}
+#apatinis img {
+    width: 80%;
+}

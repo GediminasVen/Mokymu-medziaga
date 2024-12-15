@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+main {
+    background-image: url(banga.jpg);
+    width: auto;
+    height: 800px;
+}
+
+header {
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
+
+li {
+    display: inline;
+}
+
+#nr1:hover {
+    color: #ff0;
+    border: #fff solid 1px;
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#nahe {
+    color: white;
+    background-color: #000;
+    margin: 50px 0px 0px 80px;
+    width: fit-content;
+    height: fit-content;
+    background-size: auto;
+    opacity: 30;
+}
+
+footer {
+    background-color: #000;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+}

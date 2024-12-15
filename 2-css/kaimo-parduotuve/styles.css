@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+h1 {
+background: #EBEBEB;
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 50px;
+line-height: 58.59px;
+letter-spacing: 2px;
+}
+
+.prekes {
+    width: 974px;
+    height: 599px;
+    top: 94px;
+    left: 13px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #ffffff;
+}
+
+h2 {
+    width: 114px;
+    height: 42px;
+    top: 100px;
+    left: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42.19px;
+    text-align: left;
+    color: #222222;
+    
+}
+h3 {
+    width: 95px;
+    height: 23px;
+    top: 157px;
+    left: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23.44px;
+    text-align: left;
+    color: #222222;
+    text-decoration: underline;
+}
+
+#sokoladas {
+    width: 521px;
+    height: 81px;
+    top: 190px;
+    left: 13px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #222222;
+}
+
+#traskuciai {
+    width: 521px;
+    height: 81px;
+    top: 371px;
+    left: 13px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #222222;
+
+}
+
+#vafliai {
+    width: 521px;
+    height: 81px;
+    top: 552px;
+    left: 13px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: left;
+    color: #222222;
+}
+
+.galerija {
+    width: 974px;
+    height: 300px;
+    top: 708px;
+    left: 13px;
+    background-color: #ffffff
+}
+
+#galerija {
+    width: 126px;
+    height: 42px;
+    top: 714px;
+    left: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42.19px;
+    text-align: left;
+    
+}
+
+.image-container #pirma {
+    width: 200px;
+    height: 200px;
+    top: 765px;
+    left: 13px;
+
+}
+
+#antra {
+    width: 200px;
+    height: 200px;
+    top: 765px;
+    left: 219px;
+
+}
+
+#trecia {
+    width: 200px;
+    height: 200px;
+    top: 765px;
+    left: 425px;
+
+}
+
+#ketv {
+    width: 200px;
+height: 200px;
+top: 765px;
+left: 631px;
+
+}
+
+body {
+    background-color: gray;
+}

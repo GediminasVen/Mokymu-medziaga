@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.slide {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.slide .number {
+    font-size: 128px;
+    font-weight: 400;
+}
+
+#slide-white {
+    background-color: white;
+}
+
+#slide-green {
+    background-color: green;
+}
+
+#slide-purple {
+    background-color: purple;
+
+}
+
+#slide-red {
+    background-color: red;
+}
+
+#slide-grey {
+    background-color: grey;
+}
+
+.menu {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+}
+
+.menu .arrow-up {
+    border-radius: 50px;
+    border: 1px black solid;
+    padding: 15px;
+}
+
+.menu nav ul {
+    display: flex;
+}
+
+.menu nav li {
+    margin: 0 px;
+    list-style: none;
+    border-radius: 10px;
+    border: 1px black solid;
+}

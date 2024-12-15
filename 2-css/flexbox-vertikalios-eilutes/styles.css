@@ -1,0 +1,55 @@
+.eile1, .eile2, .eile3, .eile4, .eile5 {
+    display: flex;
+    align-items: center, stretch;
+    padding: 20px;
+    flex-direction: row;
+    height: 300px;
+    width: 700px;
+}
+
+.eile1 {
+    background-color: #f8a504;
+}
+
+.eile1 p, .eile2 p, .eile3 p, .eile4 p, .eile5 p{
+    background-color: white;
+    width: 300px;
+    padding: 10px 0;
+}
+
+.eile1 p {
+    justify-content: flex-start;
+    
+}
+
+.eile2 {
+    background-color: #8fbc8f;
+    justify-content: end;
+}
+
+.eile2 p {
+    background-color: #ffffff;
+
+}
+
+.eile3 {
+    background-color: #f78c02;
+    align-items: center;
+}
+
+.eile4 {
+    background-color: #43ced1;
+    justify-content: center;
+    align-items: center;
+}
+
+.eile5 {
+    background-color: #dc143c;
+    justify-content: end;
+    align-items: end;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,80 @@
+body {
+    width: 796px;
+    height: 567px;
+    background: #131417;
+}
+
+.wantsharp {
+    position: relative;
+    width: 675px;
+    height: 355px;
+    padding: 65px 72px 66px 72px;
+    border-radius: 12px;
+    background: #222225B2;
+    color: white;
+    margin-left: 200px;
+    margin-top: 200px
+}
+
+h1 {
+    width: 531px;
+    height: 96px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.41999998688697815px;
+    text-align: left;
+
+
+}
+p {
+    width: 525px;
+    height: 52px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+button {
+    border: 2px solid #F17965;
+    color: #F17965;
+    background-color: transparent;
+    width: 144px;
+    height: 42px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    border-radius: 12px;
+    opacity: 0px;
+}
+
+button:hover {
+    background-color: #F79090;
+    color: #fff;
+}
+
+img {
+    position: absolute;
+}
+
+#melynas {
+    left: 760px;
+    bottom: -36px;
+}
+
+#raudonas {
+left: 813px;
+bottom: 33px;
+}
+
+#star {
+    left: 725px;
+    bottom: 0px;
+}
+
+#megaphons {
+    top: -44px;
+    transform: rotate(15deg);
+}

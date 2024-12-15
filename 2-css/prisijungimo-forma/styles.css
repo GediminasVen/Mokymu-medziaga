@@ -1,0 +1,75 @@
+body {
+    background-image: url(images/desktop-4.png);
+    background-repeat: no-repeat;
+
+}
+
+.baltasblokas {
+    width: 50%;
+    height: 50%;
+    padding: 88px 160px 88px 160px;
+    background-color: #fff;
+    background-size: auto;
+    box-shadow: 0px 4px 22px 9px #00000029;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    width: 569px;
+    height: 24px;
+    font-family: 'Niramit';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+p {
+    width: 569px;
+    height: 85px;
+    font-family: 'Niramit';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: #00000099;
+
+}
+
+#buttonlogin {
+    width: 137px;
+    height: 48px;
+    padding: 16px 48px 16px 48px;
+    gap: 8px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: #02B4E2;
+    border-style: none;
+
+}
+
+#password { 
+    width: 324px;
+    height: 96px;
+    gap: 16px;
+    opacity: 0px;
+
+}
+
+#passwordinput {
+    width: 324px;
+    height: 56px;
+    border-width: 1.25px, 0px, 1.25px, 1.25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #EAEAEA;
+}
+
+#emailInput {
+    width: 324px;
+    height: 56px;
+    border-width: 1.25px, 0px, 1.25px, 1.25px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #EAEAEA;
+    
+}

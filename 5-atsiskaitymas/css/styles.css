@@ -1,0 +1,195 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    max-width: 1608px;
+    margin: 0 auto;
+}
+
+
+nav.navbar {
+    padding: 20px 0;
+}
+
+nav .navbar-brand,
+nav .navbar-brand:hover {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+nav .navbar-nav .nav-item {
+    margin: 0 20px;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #AFB0B6;
+}
+
+nav .navbar-nav .nav-item:first-child {
+    margin-left: 0;
+}
+
+nav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+nav .navbar-nav .nav-item .active,
+nav .navbar-nav .nav-item .nav-link:hover {
+    color: #AFB0B6;
+}
+
+/* Headeris */
+
+header {
+    padding-top: 45px;
+    background-color: black;
+    height: 600px
+}
+header .container {
+    height: calc(40vh + 50px);
+    background: url('../img/Header.png') center no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-color: black;
+}
+
+header .portfolio-text-block {
+    width: 70%
+}
+
+header .portfolio-text-block h3 {
+    font-size: 20px;
+    color: #797C86;
+    
+}
+
+header .portfolio-text-block h4 {
+    color: #fff;
+    font-size: 50px;;
+    line-height: 70px;
+}
+
+header .portfolio-text-block p {
+    color: #797C86;
+    font-size: 15px;
+}
+
+div.star-icon { 
+    position: relative;
+    top: 43%;
+}
+
+div.scroll-text {
+    position: relative;
+    display: flex;
+    text-align: right;
+    color: #797C86;
+    text-transform: uppercase;
+    font-size: 18px;
+    justify-content: end;
+    top: 17%;
+    right: 2%;
+}
+div.scroll-text p {
+    width: 15%;
+}
+
+/* Brands worked with banneris */
+
+div.brands-worked-with{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #797C86;
+    background-color: black;
+}
+
+div.logo-banner {
+    height: 150px;
+    background-color: black;
+}
+
+div.brands-worked-with {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+div.logo-banner .logo-grey-field {
+    background-color: #0E0E10;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Portraits etc */
+
+.portraits-text {
+    color: #797C86;
+    font-size: 24px;
+    margin-left: 25%;
+}
+
+.button-side {
+    width: 14%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+}
+
+.col-6.text-below-pic {
+    color: #CACACE;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+hr {
+    padding: 30px;}
+
+
+.card {
+    background-color: black;
+    border: 1px #1C1C21 solid;
+    border-width: thin;
+}
+
+.card button.btn{
+    color: #AFB0B6;
+    font-family: 'Manrope';
+    font-size: 14px;
+}
+
+div.card-body {
+    color: #797C86;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+div .container.minimize-padding{
+    max-width: 1020px;
+    padding: 130px 0;
+}
+
+div.container.minimize-padding p.faq-abbreviation {
+    color: #797C86;
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+div.container.minimize-padding p.faq-full {
+    font-size: 44px;
+    line-height: 30px;
+    padding: 15px 0 25px 0;
+    color: #FFFFFF;
+}
+
+.arrows {
+    width: 10%;
+    display: inline-block;
+    margin-left: 40px;
+}

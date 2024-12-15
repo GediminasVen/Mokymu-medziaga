@@ -1,0 +1,35 @@
+#page-container {
+    display: inline-block;
+}
+.elementas {
+    width: 50px;
+    display: inline;
+}
+
+label, input {
+    display: block;
+}
+
+.mygtukas {
+    display: inline-block;
+    /* dėl pakeisto display padding/height ir pan reaguos į aukštį tinkamai */
+    padding: 20px 40px;
+}
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    /* slepiam kol nereikia */
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: bisque;
+}
+
+.dropdown:hover .dropdown-content {
+    /* atidengiam kai reikia */
+    display: block;
+}

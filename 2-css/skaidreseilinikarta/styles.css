@@ -1,0 +1,17 @@
+#pirmas p {
+    font-size: 2em;
+}
+
+#pirmas a {
+    font-size: 2em;
+}
+
+#pirmas mark:hover {
+    position: relative;
+    bottom: 10px;
+}
+
+#pirmas a:hover {
+    position: relative;
+    left: 20px;
+}

@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(180deg, #58F6EC 0%, #FBEDDD 64.58%);
+    width: 1920px;
+    height: 1834px;
+    top: -513px;
+    left: -720px;
+    padding: 64px 0px 64px 0px;
+}
+
+p {
+    width: 408px;
+    height: 135px;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: center;
+}
+
+#pirmas {
+    width: 488px;
+    height: 314px;
+    padding: 50px 40px 30px 40px;
+    gap: 16px;
+    background-color: #ffffff;
+    box-shadow: 5px 4px 16px 0px #331C0026;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#naujienapirm {
+    width: 126px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+
+#placiau1 {
+    width: 73px;
+    height: 31px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    background: #FCCB92;
+    
+}

@@ -1,0 +1,42 @@
+body {
+    background-color: #7fffd4;
+}
+
+#pirmas {
+    background-color: red;
+    max-width: 80%;
+    margin: 5em auto;
+    border: 12px solid green;
+    box-shadow: 5px 5px 15px black;
+}
+#antras {
+    background-color: red;
+    max-width: 80%;
+    margin: 5em auto;
+    padding: 5em;
+    border-radius: 150px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+#trecias {
+    background-color: red;
+    max-width: 80%;
+    margin: 5em auto;
+    padding: 5em 0;
+    border-bottom: 10px solid green;
+    border-right: 15px solid green;
+}
+#ketvirtas {
+    background-color: red;
+    max-width: 80%;
+    margin: 5em auto;
+    padding: 0em 5em 1em;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+}
+#penktas {
+    background-color: red;
+    max-width: 80%;
+    margin: 5em auto;
+    padding: 0em 0em 5em 0em;
+    border-left: 10px dashed green;
+}

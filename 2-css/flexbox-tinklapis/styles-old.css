@@ -1,0 +1,92 @@
+.eile {
+    display: flex;
+    background-color: #f8f8f8;
+    
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  #baneris {
+    background: #fce4c4;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  #baneris a{
+    text-decoration: none;
+    color: #222222;
+  }
+  
+  #baneris ul a:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #baneris h1 {
+    margin: 0;
+  }
+
+  .banner {
+    background-color: #8a2be2 ;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+
+  #straipsniai {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 30px;
+  }
+  
+  #straipsniai article {
+    width: 22%;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #000;
+  }
+  
+  #apacia {
+    background: #8fbc8f;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #apacia p {
+    margin: 0;
+  }
+
+.banner2 {
+    background-color: #8a2be2 ;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+}
+  .banner2 p{
+    color: #fff;
+  }
+
+  footer{
+    background-color: #deb987;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+  }

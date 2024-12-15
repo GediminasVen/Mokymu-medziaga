@@ -1,0 +1,30 @@
+p {background-color: #ffffff;
+    opacity: 0.7;
+}
+
+#pirma {background-color: #0a3d6d;
+color : #ffffff}
+
+#antra {background-color: #063b1e;
+    color : #ffffff}
+
+#trecia {background-color: #3d3e3f;
+    color : #ffffff}
+
+#onetext {
+    background-image: url("download.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#twotext {
+    background-image: url("download.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#threetext {
+    background-image: url("downloadas.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

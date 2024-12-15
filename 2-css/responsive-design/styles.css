@@ -1,0 +1,147 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    padding: 82px 160px 207px 160px;
+}
+
+
+
+.kortele {
+    gap: 20px;
+    display: inline-block;
+    height: 629px;
+    width: 376px;
+        border-radius: 16px;
+    border: 1px solid #84AD40;
+    box-shadow: 0px 2px 6px 0px #00000026;
+
+}
+
+.geles img {
+    width: 376px;
+    height: 431px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.geles h3 {
+    width: 201px;
+    height: 29px;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.geles p {
+    width: 328px;
+    height: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #777777;
+    padding-left: 15px;;
+}
+
+.colorandbutton {
+    width: 328px;
+    height: 41px;
+    gap: 5px;
+    display: inline-block;
+    padding-left: 15px;
+
+}
+
+.vazonas {
+    width: 96px;
+    height: 17px;   
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: #7D9458;
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+.black {
+    width: 16px;
+    height: 16px;
+    top: 25px;  
+    background-color: #39362E;
+    border-radius: 50px;
+    display: inline-block;
+    
+}
+.pink {
+    width: 16px;
+    height: 16px;
+    top: 25px;
+    left: 21px;
+    background: #F3A195;
+    display: inline-block;
+    border-radius: 50px;
+
+}
+.white {
+    width: 16px;
+    height: 16px;
+    top: 25px;
+    left: 42px;
+    display: inline-block;
+    background: #EFEAE6;
+    border-radius: 50px;
+
+
+    
+}
+.brown {
+    width: 16px;
+    height: 16px;
+    top: 25px;
+    left: 63px;
+    display: inline-block;
+    background: #C38364;
+    border-radius: 50px;
+
+}
+
+button {
+    width:100px;
+    height: 41px;
+    padding: 12px 32px 12px 32px;
+    border-radius: 4px;
+    background: #84AD40;
+    color: white;
+    border: none;
+    display: inline-block;
+    top: 20px;
+    margin-left: 130px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    button {
+    width: 100%;
+background-color: #39362E;}
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    button { 
+        width: 100%;
+        background-color: #39362E;
+    }
+    
+}

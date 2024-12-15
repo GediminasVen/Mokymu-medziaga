@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-rows: 50px 150px 50px;
+    grid-gap: 10px;
+    grid-template-areas: 
+    'h h h h'
+    's c c s2'
+    'f f f f';
+
+}
+
+.header {
+background-color: darkgray;
+grid-area: h;
+}
+
+.sidebar {
+    background-color: gray;
+    grid-area: s;
+}
+
+.content {
+    background-color: gray;
+    grid-area: c;;
+    color: darkgray
+
+}
+
+.sidebar2 {
+    background-color: darkgray;
+    grid-area: s2;;
+
+}
+
+
+.footer {
+    background-color: gray;
+    grid-area: f;
+
+}

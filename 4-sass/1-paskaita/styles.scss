@@ -1,0 +1,18 @@
+$redColor: #ff0000;
+$primary-color: #333;
+$font-stack: Helvetica, sans-serif;
+$divClassName: 'saas-div';
+$cssRuleName: margin;
+
+
+div.#{$divClassName} {
+    color: $redColor;
+    #{$cssRuleName}: 12px
+}
+
+h1 {
+    background-color: $redColor;
+    color: $primary-color;
+    font-family: $font-stack;
+}
+

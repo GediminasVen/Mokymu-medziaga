@@ -1,0 +1,139 @@
+.eile {
+    display: flex;
+    background-color: #f8f8f8;
+    
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  #baneris {
+    background-color: #121212;
+    height: 25px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #baneris a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  #baneris ul a:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  .zaliasblokas {
+    background-color: #90ee90;
+    align-content: center;
+    justify-content: center;
+    height: 200px;
+  }
+
+  .mygtas {
+    background-color: transparent;
+  }
+
+ .tekstoblokelis h2, .tekstoblokelis p,  .tekstoblokelis button {
+  padding: 13px;
+ }
+
+
+  .mygtas:hover {
+    background-color: #393939;
+    color: white;
+  }
+
+  .tekstoblokelis {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  #baneris h1 {
+    margin: 0;
+    border: black 1px solid;
+    background-color: none;
+  }
+
+  .banner {
+    background-color: #7fffd4;
+    padding: 20px;
+  }
+
+  #straipsniai {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 30px;
+    background-color: #fce4c4;
+  }
+  
+  #straipsniai article {
+    width: 22%;
+    background: #fef1e1;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #000;
+  }
+  
+  #apacia {
+    background: #8fbc8f;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #apacia p {
+    margin: 0;
+  }
+
+.banner2 {
+    background-color: #8a2be2 ;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+}
+  .banner2 p{
+    color: #fff;
+  }
+
+  footer{
+    background-color: #deb987;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+.ohno {
+  width: 400px;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer h4 {
+  padding: 10px;
+  padding-left: 0;
+}
+footer li {
+  color: #3dbac9;
+  margin: 5px 0px 0px 4px;
+}
+
+  * {
+    padding: 0;
+    margin: 0;
+  }

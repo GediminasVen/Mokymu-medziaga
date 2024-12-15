@@ -1,0 +1,215 @@
+#page-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+main .page-block {
+    height: 100vh;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;;
+}
+header .title {
+    color: #222;
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    min-width: 300px;
+    ;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+header nav ul li a:hover {
+    color: #EB5757
+}
+
+.title {
+    padding: 20px 15px;
+}
+
+
+.nav-top {
+    position: fixed;
+    ;border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    bottom: 25px;
+    right: 20px;
+    background-color: white;
+    opacity: 30%;
+}
+
+.nav-top a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ff0000;
+}
+
+#baneris {
+    background-color: #EB5757;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+    color: #fff;
+
+}
+
+#pradzia {
+    background-image: url(../images/layout/Pirmasbodis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;;
+    color: #fff;
+    text-align: center;
+}
+
+#pradzia h1 {
+    width: 642px;
+    height: 94px;
+    font-family: 'Raleway';
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 93.92px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#pradzia h3 {
+    width: 768px;
+    height: 54px;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54.47px;
+    text-align: center;
+}
+
+#pradzia a {
+    width: 232px;
+    height: 52px;
+    background: #fff;
+    color: #EB5757;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+#pradzia a:hover {
+    width: 232px;
+    height: 52px;
+    background: #EB5757;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    text-decoration: none;
+}
+
+#textblock {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 90px;
+}
+#underscore {
+    background-color: #EB5757;
+    width: 31px;
+    height: 5px;
+
+}
+
+.textblock2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 58.7px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.textblock2 p {
+    width: 80%;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center
+}
+
+#underscore {
+    background-color: #EB5757;
+    width: 31px;
+    height: 5px;
+
+}
+
+
+#celebrites {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.atlikejoblock img {
+    width: 150px;
+    height: 150px;
+}
+
+.atlikejoblock {
+    text-align: center;
+    padding: 20px;
+    height: 250px;
+    width: 200px;
+}
+
+.atlikejoblock p {
+    height: 44px;
+}
+
+#galerija {
+    background-color: #EB57571A;
+    justify-content: center;
+}
+
+.galerijafoto {
+    width: 80%;
+}
+
+.galerijafoto img {
+    width: 150px;
+    height: 150px;
+}
