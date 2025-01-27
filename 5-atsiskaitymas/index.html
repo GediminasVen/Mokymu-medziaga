@@ -6,15 +6,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="fonts/roboto-font.css" />
     <link rel="stylesheet" href="css/tablet.css" />
     <link rel="stylesheet" href="css/phone.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
 
   </head>
   <!-- navigacinis bar-->
-  <body>
+  <body class="bg-black">
     <nav class="navbar navbar-expand-lg bg-black">
       <div class="container">
         <a class="navbar-brand" href="#">DAMIEN</a>
@@ -27,7 +29,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-light navbar-toggler-icon"></span>
         </button>
         <div
           class="collapse navbar-collapse justify-content-center"
@@ -38,7 +40,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#team-members">About Me</a>
+              <a class="nav-link" href="#">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Portfolio</a>
@@ -49,15 +51,15 @@
           </ul>
         </div>
         <div class="buttoncontactme">
-          <button type="button" class="btn green-secondary">Contact Me</button>
+          <button type="button" class="btn btn-secondary">Contact Me</button>
         </div>
       </div>
     </nav>
     <!-- Headeris su paveiksliuku -->
-    <div class="page-container">
       <header>
         <div class="container">
           <div class="portfolio-text-block">
+            <img class="phone-head-ft" src="img/header-back-phone.png" alt="">
             <h3>PORTFOLIO</h3>
             <h4>VISUAL POETRY IN PIXELS</h4>
             <p>
@@ -72,7 +74,7 @@
           <div class="scroll-text"><p>Scroll Down To See The Works</p></div>
         </div>
       </header>
-    </div>
+    </>
 
     <!-- banneris logo -->
     <div class="logo-banner">
@@ -87,7 +89,7 @@
     </div>
 <!-- FOTOGRAFIJOS -->
     <div class="row bg-black">
-      <div class="col-12">
+      <div class="col-12 ">
         <hr />
         <div class="row d-flex justify-content-center">
           <div class="col-6">
@@ -99,7 +101,7 @@
           <div class="col-6 d-flex justify-content-end">
             <img class="button-side" src="img/Buttons Container.png" alt="" />
           </div>
-          <div class="col-3">
+          <div class="col-lg-3 col-sm-3">
             <img src="img/Portrait1.png" />
             <div class="row">
               <div class="col-6 text-below-pic">
@@ -110,7 +112,7 @@
             </div>
           </div>
 
-          <div class="col-3">
+          <div class="col-3 hide-card">
             <img src="img/Portrait2.png" />
             <div class="row">
               <div class="col-6 text-below-pic">
@@ -121,7 +123,7 @@
             </div>
           </div>
 
-          <div class="col-3">
+          <div class="col-3 hide-card">
             <img src="img/Portrait3.png" />
             <div class="row">
               <div class="col-6 text-below-pic">
@@ -145,7 +147,7 @@
                 <div class="col-6 d-flex justify-content-end">
                   <img class="button-side" src="img/Buttons Container.png" alt="" />
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-sm-3">
                   <img src="img/Event1.png" />
                   <div class="row">
                     <div class="col-6 text-below-pic">
@@ -156,7 +158,7 @@
                   </div>
                 </div>
       
-                <div class="col-3">
+                <div class="col-3 hide-card">
                   <img src="img/Event2.png" />
                   <div class="row">
                     <div class="col-6 text-below-pic">
@@ -167,7 +169,7 @@
                   </div>
                 </div>
       
-                <div class="col-3">
+                <div class="col-3 hide-card">
                   <img src="img/Event3.png" />
                   <div class="row">
                     <div class="col-6 text-below-pic">
@@ -191,7 +193,7 @@
                         <div class="col-6 d-flex justify-content-end">
                           <img class="button-side" src="img/Buttons Container.png" alt="" />
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-3 col-sm-3">
                           <img src="img/Commercial1.png" />
                           <div class="row">
                             <div class="col-6 text-below-pic">
@@ -202,7 +204,7 @@
                           </div>
                         </div>
               
-                        <div class="col-3">
+                        <div class="col-3 hide-card">
                           <img src="img/Commercial2.png" />
                           <div class="row">
                             <div class="col-6 text-below-pic">
@@ -213,7 +215,7 @@
                           </div>
                         </div>
               
-                        <div class="col-3">
+                        <div class="col-3 hide-card">
                           <img src="img/Commercial3.png" />
                           <div class="row">
                             <div class="col-6 text-below-pic">
@@ -228,7 +230,7 @@
     </div>
     <!-- FAQ -->
 
-    <div class="container minimize-padding" >
+    <div class="container minimize-padding pt-5" >
         <p class="faq-abbreviation">FAQ’s </p>
         <p class="faq-full">Frequently Asked Questions</p>
 
@@ -238,9 +240,9 @@
         <div class="card ">
           <div class="card-header" id="headingOne">
             <div class="row">
-            <h5 class="mb-0">
+            <h5 class="mb-0 d-flex justify-content-between">
               <button class="btn btn-grey" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What type of photography do you specialize in?            
+                What type of photography do you specialize in?     
               </button>
               <img src="img/arrow-up.png" class="arrows">
             </h5>
@@ -256,10 +258,11 @@
         </div>
         <div class="card">
           <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
+            <h5 class="mb-0 d-flex justify-content-between">
               <button class="btn btn-grey collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 How can I book a photography session with you?
               </button>
+              <img src="img/arrow-down.png" class="arrows">
             </h5>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -270,10 +273,11 @@
         </div>
         <div class="card">
           <div class="card-header" id="headingThree">
-            <h5 class="mb-0">
+            <h5 class="mb-0 d-flex justify-content-between">
               <button class="btn btn-grey collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 What equipment do you use for your photography?
               </button>
+              <img src="img/arrow-down.png" class="arrows">
             </h5>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -284,10 +288,12 @@
         </div>
         <div class="card">
             <div class="card-header" id="headingThree">
-              <h5 class="mb-0">
+              <h5 class="mb-0 d-flex justify-content-between">
                 <button class="btn btn-grey collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Can I request a specific location for a 
                 </button>
+              <img src="img/arrow-down.png" class="arrows">
+
               </h5>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -302,10 +308,12 @@
         <div id="accordion">
             <div class="card">
               <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
+                <h5 class="mb-0 d-flex justify-content-between">
                   <button class="btn btn-grey" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     What is your editing process like?
                   </button>
+              <img src="img/arrow-down.png" class="arrows">
+
                 </h5>
               </div>
           
@@ -317,10 +325,11 @@
             </div>
             <div class="card">
               <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
+                <h5 class="mb-0 d-flex justify-content-between">
                   <button class="btn btn-grey collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Are digital files included in your photography packages?
                   </button>
+              <img src="img/arrow-down.png" class="arrows">
                 </h5>
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -331,7 +340,7 @@
             </div>
             <div class="card">
               <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
+                <h5 class="mb-0 d-flex justify-content-between">
                   <button class="btn btn-grey collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Do you offer prints of your photographs?
                   </button>
@@ -346,10 +355,11 @@
             </div>
             <div class="card">
                 <div class="card-header" id="headingThree">
-                  <h5 class="mb-0">
+                  <h5 class="mb-0 d-flex justify-content-between">
                     <button class="btn btn-grey collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     How long does it take to receive the edited photos after a session?
                     </button>
+              <img src="img/arrow-down.png" class="arrows">
                   </h5>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -362,8 +372,176 @@
         </div>
 </div>
 </div>
-    
 
+
+<div class="container">
+    <div class="row client-feedback pt-5">
+        <p class="testimonials">Testimonials</p>
+        <p class="feedback">WHAT MY CLIENT SAY</p>
+        <div class="col-6 p-0">
+        <p class="total-reviewed">Total reviews</p>
+        <p class="review-count">323</p>
+</div>
+    <div class="col-6 p-0 d-flex justify-content-end">
+        <img src="img/Buttons Container.png" alt="">
+        <button class="testimonial-btn">View All Testimonials &#8594;</button>
+    </div>
+</div>
+<hr>
+<div class="card-group">
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-6">
+        <h6 class="card-title">Emily Johnson <span>USA, California</span></h6>
+      </div>
+          <div class="col-6 card-redirect">
+            <a href="#" class="fa fa-facebook bg-white text-black"></a>
+            <a href="#" class="fa fa-twitter text-white"></a>  
+            <a href="#" class="fa fa-linkedin bg-white text-black"></a>  
+          </div>
+      </div>
+        <span class="fa fa-star checked pt-3 pb-4"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+
+        <p class="card-text text-white">Damien's photography doesn't just capture moments; it captures emotions. Hes work is simply mesmerizing.</p>
+      </div>
+    </div>
+    <div class="card hide-card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-6">
+        <h6 class="card-title">John Smith <span>USA, California</span></h6>
+      </div>
+          <div class="col-6 card-redirect">
+            <a href="#" class="fa fa-facebook bg-white text-black"></a>
+            <a href="#" class="fa fa-twitter text-white"></a>  
+            <a href="#" class="fa fa-linkedin bg-white text-black"></a>  
+          </div>
+      </div>
+        <span class="fa fa-star checked pt-3 pb-4"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+
+        <p class="card-text text-white">Damien has an incredible talent for making every event feel effortless, and the results speak for themselves.</p>
+      </div>
+    </div>
+    <div class="card hide-card">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-6">
+        <h6 class="card-title">Samantha Davis<span>USA, California</span></h6>
+      </div>
+          <div class="col-6 card-redirect">
+            <a href="#" class="fa fa-facebook bg-white text-black"></a>
+            <a href="#" class="fa fa-twitter text-white"></a>  
+            <a href="#" class="fa fa-linkedin bg-white text-black"></a>  
+          </div>
+      </div>
+        <span class="fa fa-star checked pt-3 pb-4"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+
+        <p class="card-text text-white">I was blown away by Damien's ability to capture the essence of our wedding day. Hes photographs are our cherished memories.</p>
+      </div>
+    </div>
+  </div>  
+</div>
+
+
+<!-- Damien ir footerio pradzios banneris -->
+    <div class="container">
+      <h5 class="damien-big-text">DAMIEN</h5>
+      </div>
+      <div class="footer-banner d-flex justify-content-center">
+        <img src="img/ftr-banner/banner.png">
+        <img src="img/ftr-banner/banner1.png">
+        <img src="img/ftr-banner/banner2.png">
+        <img src="img/ftr-banner/banner3.png">
+        <img src="img/ftr-banner/banner4.png">
+        <img src="img/ftr-banner/banner5.png">
+    </div>
+    <footer>
+      <div class="container">
+          <div class="row">
+            <img class="e-normal" src="img/e-lett.png" alt="">
+            <img class="e-reverse" src="img/e-lett-reverse.png" alt="">
+            <div class="col-3"> 
+              <p class="text-meaningful">A MORE MEANINGFUL HOME FOR PHOTOGRAPHY</p>
+              <p class="let-btn-wrk">LET'S <button>&#8599;</button>WORK TOGETHER</p>
+            </div>
+            <div class="col-9 d-flex">
+            <div class="col-3">
+              <p class="footer-list-head">Home</p>
+              <p>ABOUT ME</p>
+              <hr>
+              <p>MY WORKS</p>
+              <hr>
+              <p>TESTIMONIALS</p>
+              <hr>
+          </div>
+              <div class="col-3">
+                <p class="footer-list-head">CLIENTS</p>
+                <p>KLOVESTO</p>
+                <hr>
+                <p>NUKEWAY</p>
+                <hr>
+                <p>CLOVENS</p>
+                <hr>
+                <p>MENVOL</p>
+                <hr>
+            </div>
+              <div class="col-3">
+                <p class="footer-list-head">PORTFOLIO</p>
+                <p>EVENTS</p>
+                <hr>
+                <p>PORTRAIT</p>
+                <hr>
+                <p>BRANDING</p>
+                <hr>
+                <p>COMMERCIALE</p>
+                <hr>
+                <p>WEDDING</p>
+            </div>
+              <div class="col-3">
+                  <p class="footer-list-head">SERVICES</p>
+                  <p>PORTRAIT</p>
+                  <hr>
+                  <p>EVENTS</p>
+                  <hr>
+                  <p>COMMERCIALE</p>
+                  <hr>
+              </div>
+          </div>
+        </div>
+          <div class="row pb-3 pt-3">
+              <div class="col-12 col-sm-12 d-flex pt-3 justify-content-center">
+                <div class="col-5">
+                  <a href="#">Terms & Conditions</a>
+                  <a href="#">Privacy Policy</a>
+                </div>
+                <div class="col-2">
+                  <div class="footer-socials">
+                  <a href="#" class="fa fa-facebook bg-white text-black"></a>
+                  <a href="#" class="fa fa-twitter text-white"></a>  
+                  <a href="#" class="fa fa-linkedin bg-white text-black"></a>  
+                </div>
+                </div>
+                <div class="col-5 text-sm-end align-content-center">
+                  <p>&copy; 2024 Damien Braun Photography. All rights reserved.</p>
+                </div>
+              </div>
+          </div>
+      </div>
+
+  </footer>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

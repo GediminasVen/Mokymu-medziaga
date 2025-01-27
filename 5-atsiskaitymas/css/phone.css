@@ -1,0 +1,106 @@
+@media screen and (max-width: 500px) {
+    header .container {
+        background: none;
+    }
+
+    .buttoncontactme{
+        display: none;
+    }
+
+    .navbar-toggler {
+        border: 1px grey solid;
+        opacity: 50%;
+    }
+
+    header {
+        display: flex;
+    }
+
+    header img.phone-head-ft {
+        display: flex;
+        width: 100%;
+    }
+
+    header .portfolio-text-block {
+        width: 100%
+    }
+
+    header .portfolio-text-block h3 {
+        padding-top: 25px;
+        font-size: 15px;
+        color: #797C86;
+        
+    }
+    
+    header .portfolio-text-block h4 {
+        color: #fff;
+        font-size: 30px;;
+        line-height: 40px;
+    }
+    
+    header .portfolio-text-block p {
+        color: #797C86;
+        font-size: 12px;
+        padding-top: 25px
+    }
+
+    div .col-lg-3.col-sm-3 {
+        padding: 30px;
+    }
+
+    .portraits-text {
+        color: #797C86;
+        font-size: 14px;
+        margin-left: 15%;
+    }
+    .first-block {
+        width: 100%;
+    }
+
+    .arrows {
+        width: 10%;
+        height: 30px;
+        display: inline-block;
+        margin-left: 40px;
+    }
+
+    div.container.minimize-padding p.faq-full {
+        font-size: 27px;
+        line-height: 30px;
+        padding: 15px 0 25px 0;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+
+    p.feedback {
+        font-size: 27px;
+        line-height: 30px;
+        padding: 15px 0 25px 0;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+
+
+    h5.damien-big-text {
+        font-size: 85px;
+        text-align: right;
+        padding-top: 65px;
+    }   
+
+    p.testimonials, p.feedback, div.col-6 p.total-reviewed, div.col-6 p.review-count {
+        padding-left: 15px
+    }
+
+
+    .star-icon,
+    .scroll-text p, 
+    .hide-card,
+    .col-6.d-flex.justify-content-end img,
+    .second-block,
+    footer div.row img.e-normal,
+    div.row img.e-reverse
+    {
+        display: none;
+    }
+
+}

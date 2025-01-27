@@ -1,0 +1,16 @@
+@media screen and (min-width: 501px) and (max-width: 1224px) {
+
+    footer div .row .e-normal {
+        position: absolute;
+        width: 15%;
+        max-width: 380px;
+        left: -100px;
+    }
+    
+    footer div .row .e-reverse {
+        position: absolute;
+        width: 15%;
+        max-width: 380px;
+        right: -80px;
+    }
+}
