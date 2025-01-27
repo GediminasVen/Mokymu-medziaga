@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      console.log("================================");
+      console.log("====   ciklas for uzduotys      ====");
+      console.log("====   1 uzduotis:          ====");
+      let suma = 0;
+      for (let i = 1; i <= 100; i++) {
+        suma += i;
+      }
+      console.log("Skaiciu nuo 1 iki 100 suma: " + suma);
+
+      console.log("====   2 uzduotis:          ====");
+
+      suma = 0;
+
+      for (let i = 20; i <= 50; i += 2) {
+        suma += i;
+      }
+      console.log("lyginiu skaiciu nuo 20 iki 50 suma: " + suma);
+
+      console.log("====   3 uzduotis:          ====");
+
+      suma = 0;
+
+      for (let i = 31; i <= 60; i += 2) {
+        suma += i;
+      }
+      console.log("nelyginiu skaiciu nuo 30 iki 60 suma: " + suma);
+
+      console.log("====   4 uzduotis:          ====");
+
+      suma = 0;
+
+      for (let i = 1; i < 1000; i++) {
+        if (i % 3 === 0 || i % 5 === 0) {
+          suma += i;
+        }
+      }
+      console.log(
+        "Skaiciu mazesniu uz 1000, kurie dalinasi is 3 arba 5, suma: " + suma
+      );
+
+      console.log("====   5 uzduotis:          ====");
+
+      for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+          console.log("FizzBuzz");
+        } else if (i % 3 === 0) {
+          console.log("Fizz");
+        } else if (i % 5 === 0) {
+          console.log("Buzz");
+        } else {
+          console.log(i);
+        }
+      }
+
+      console.log("====   7 uzduotis:          ====");
+
+      let n = 100;
+      let pirmas = 1;
+      let antras = 1;
+      console.log(pirmas);
+      console.log(antras);
+
+      for (let i = 2; i < n; i++) {
+        let trecias = pirmas + antras;
+        console.log(trecias);
+        pirmas = antras;
+        antras = trecias;
+      }
+
+      console.log("================================");
+    </script>
+  </body>
+</html>
