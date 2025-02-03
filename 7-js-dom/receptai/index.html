@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receptų Skaičiuoklė</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="block-container">
+      <h1>Pasirinkite receptą:</h1>
+      <div class="korteles">
+        <div class="kortele" onclick="onKortelesPaspaudimas(1)">
+          <img src="img/vistiena.png" alt="Vištiena su salotomis" />
+          <div class="text">
+            <h4>Vištiena su salotom</h4>
+            <p>
+              Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt
+              risus purus faucibus elit ut. Pellentesque montes.
+            </p>
+          </div>
+          <img src="img/selected.png" class="active" alt="Selected Icon" />
+        </div>
+
+        <div class="kortele" onclick="onKortelesPaspaudimas(2)">
+          <img src="img/tortas.png" alt="Tortas su mėlynėmis" />
+          <div class="text">
+            <h4>Tortas su mėlynėmis</h4>
+            <p>
+              Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt
+              risus purus faucibus elit ut. Pellentesque montes.
+            </p>
+          </div>
+          <img src="img/selected.png" class="active" alt="Selected Icon" />
+        </div>
+
+        <div class="kortele" onclick="onKortelesPaspaudimas(3)">
+          <img src="img/makaronai.png" alt="Makaronai su mėsa" />
+          <div class="text">
+            <h4>Makaronai su mėsa</h4>
+            <p>
+              Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt
+              risus purus faucibus elit ut. Pellentesque montes.
+            </p>
+          </div>
+          <img src="img/selected.png" class="active" alt="Selected Icon" />
+        </div>
+      </div>
+    </div>
+
+    <div class="block-container porcijos">
+      <h1>Kiek porcijų gaminsite?</h1>
+      <p id="porciju-skaicius">1</p>
+      <input type="range" min="1" max="15" value="1" id="porciju-slider" />
+    </div>
+
+    <div class="block-container ingridientai">
+      <h1>Jums reikės šių ingredientų, tokiais kiekiais:</h1>
+      <div id="rezultatai"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

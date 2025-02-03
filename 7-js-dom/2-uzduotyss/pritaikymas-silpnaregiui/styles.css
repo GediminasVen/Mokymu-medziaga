@@ -1,0 +1,24 @@
+table {
+    border: 1px solid black
+}
+
+table td {
+    border: 1px solid black
+}
+
+table, table td {
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.padidint {
+    margin-top: 15px;
+}
+
+.bigText {
+    font-size: 30px
+}
+
+.bigText .padidint {
+    font-size: 30px
+}
