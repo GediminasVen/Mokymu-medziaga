@@ -1,26 +1,19 @@
 import './App.css'
-import Pirmas from './components/Pirmas';
-import Antras from './components/Antras';
-import Trecias from './components/Trecias';
-import Ketvirtas from './components/Ketvirtas';
-import Naujienos from './components/Naujienos';
-import Parduotuve from './components/Parduotuve';
-import Preke from './components/Preke';
+import About from './pages/About';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import ArticleVienas from './components/Articles/ArticleVienas';
+
+
 
 function App() {
 
   return (
     <>
-      <Pirmas />
-      <Antras />
-      <Antras />
-      <Preke />
-      <Antras />
-      <Trecias />
-      <Trecias />
-      <Ketvirtas />
-      <Naujienos />
-      <Parduotuve />
+    <About />
+    <ArticleVienas />
+    <ArticleVienas />
+    <ArticleVienas />
     </>
   )
 }

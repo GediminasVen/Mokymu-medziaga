@@ -1,0 +1,31 @@
+.app {
+  border: 2px solid black;
+  padding: 25px;
+}
+
+.navbar, .header, .paslaugos, .paslauga, .apie-mus, .footer {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+}
+
+.paslauga {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.paslauga-card {
+  border: 2px solid black;
+  width: 250px;
+  text-align: center;
+}
+
+.paslaugos h1 {
+  text-align: center;
+  margin: 0 auto;
+}
