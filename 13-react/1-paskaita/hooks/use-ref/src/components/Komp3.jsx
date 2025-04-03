@@ -3,7 +3,8 @@ import { useState } from "react"
 const Komp3 = () => {
     const [pazymiai, setPazymiai] = useState([1, 2, 3])
 
-    const onPazymiaiSubmitHandler = () => {
+    const onPazymiaiSubmitHandler = (e) => {
+        e.preventDefault();
         alert('submit')
     }
 
