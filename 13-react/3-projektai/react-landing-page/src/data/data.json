@@ -1,0 +1,234 @@
+{
+    "navigation": {
+        "title": "React landing page",
+        "navigationItems": [
+            "features",
+            "about",
+            "services",
+            "gallery",
+            "testimonials",
+            "team",
+            "contact"
+        ]
+    },
+    "header": {
+        "title": "we are a landing page",
+        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
+        "button": "learn more"
+    },
+    "features": {
+        "title": "features",
+        "featuresItems": [
+            {
+                "icon": "HiChatAlt2",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            },
+            {
+                "icon": "HiVolumeUp",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            },
+            {
+                "icon": "HiOutlineUserGroup",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            },
+            {
+                "icon": "HiPencil",
+                "title": "lorem ipsum",
+                "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            }
+        ]
+    },
+
+        "aboutUs": {
+            "title": "about us",
+            "description": "Lorem Tempor incididunt Roblen Tempor incididunt Aslorpedmori ori w, orko qwe Tempor incididunt e Tempor incididunt Tempor incididun Lorem ipsum dolort Lorem ipsum dolor  ",
+            "features": [
+                "Lorem ipsum dolor",
+                "Tempor incididunt",
+                "Incididunt ut labore",
+                "Aliquip ex ea commodo",
+                "Lorem ipsum dolor",
+                "Exercitation ullamco",
+                "Aewqqroqo ulmco",
+                "Rdodoawe occo"
+            ]
+        },
+        "services": {
+    "title": "Our Services",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec.",
+    "items": [
+        {
+        "icon": "HiOutlineGlobeAlt",
+        "title": "Lorem ipsum dolor",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec."
+        },
+        {
+        "icon": "HiOutlineAdjustments",
+        "title": "Consectetur adipiscing",
+        "text": "Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+        "icon": "HiOutlineCloudUpload",
+        "title": "Lorem ipsum dolor",
+        "text": "Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+        "icon": "HiOutlineShieldCheck",
+        "title": "Consectetur adipiscing",
+        "text": "Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+        "icon": "HiOutlineCursorClick",
+        "title": "Lorem ipsum dolor",
+        "text": "Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+        "icon": "HiOutlineRefresh",
+        "title": "Consectetur adipiscing",
+        "text": "Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum dolor feugiat at."
+        }
+    ]
+    },
+        "gallery": {
+            "title": "GALLERY",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec.",
+          "images": [
+            {
+              "id": 1,
+              "title": "Workspace 1",
+              "url": "https://media.istockphoto.com/id/1142665470/photo/a-lilac-british-cat-with-a-blue-coat-looking-up-the-cat-opened-his-mouth-with-a-mad-look-the.jpg?s=612x612&w=0&k=20&c=taxLHL2AxrFzmSaGUqIk1jYNQ19LXvg3fxxFly0RHyY="
+            },
+            {
+              "id": 2,
+              "title": "Workspace 2",
+              "url": "https://media.istockphoto.com/id/1142665470/photo/a-lilac-british-cat-with-a-blue-coat-looking-up-the-cat-opened-his-mouth-with-a-mad-look-the.jpg?s=612x612&w=0&k=20&c=taxLHL2AxrFzmSaGUqIk1jYNQ19LXvg3fxxFly0RHyY="
+            },
+            {
+              "id": 3,
+              "title": "Workspace 2",
+              "url": "https://media.istockphoto.com/id/1142665470/photo/a-lilac-british-cat-with-a-blue-coat-looking-up-the-cat-opened-his-mouth-with-a-mad-look-the.jpg?s=612x612&w=0&k=20&c=taxLHL2AxrFzmSaGUqIk1jYNQ19LXvg3fxxFly0RHyY="
+            },
+            {
+              "id": 4,
+              "title": "Workspace 2",
+              "url": "https://media.istockphoto.com/id/1142665470/photo/a-lilac-british-cat-with-a-blue-coat-looking-up-the-cat-opened-his-mouth-with-a-mad-look-the.jpg?s=612x612&w=0&k=20&c=taxLHL2AxrFzmSaGUqIk1jYNQ19LXvg3fxxFly0RHyY="
+            },
+            {
+              "id": 5,
+              "title": "Workspace 2",
+              "url": "https://media.istockphoto.com/id/1142665470/photo/a-lilac-british-cat-with-a-blue-coat-looking-up-the-cat-opened-his-mouth-with-a-mad-look-the.jpg?s=612x612&w=0&k=20&c=taxLHL2AxrFzmSaGUqIk1jYNQ19LXvg3fxxFly0RHyY="
+            },
+            {
+              "id": 6,
+              "title": "Workspace 2",
+              "url": "https://media.istockphoto.com/id/1142665470/photo/a-lilac-british-cat-with-a-blue-coat-looking-up-the-cat-opened-his-mouth-with-a-mad-look-the.jpg?s=612x612&w=0&k=20&c=taxLHL2AxrFzmSaGUqIk1jYNQ19LXvg3fxxFly0RHyY="
+            },
+            {
+              "id": 7,
+              "title": "Workspace 2",
+              "url": "https://media.istockphoto.com/id/1142665470/photo/a-lilac-british-cat-with-a-blue-coat-looking-up-the-cat-opened-his-mouth-with-a-mad-look-the.jpg?s=612x612&w=0&k=20&c=taxLHL2AxrFzmSaGUqIk1jYNQ19LXvg3fxxFly0RHyY="
+            },
+            {
+              "id": 8,
+              "title": "Workspace 2",
+              "url": "https://media.istockphoto.com/id/1142665470/photo/a-lilac-british-cat-with-a-blue-coat-looking-up-the-cat-opened-his-mouth-with-a-mad-look-the.jpg?s=612x612&w=0&k=20&c=taxLHL2AxrFzmSaGUqIk1jYNQ19LXvg3fxxFly0RHyY="
+            },
+            {
+              "id": 9,
+              "title": "Workspace 2",
+              "url": "https://media.istockphoto.com/id/1142665470/photo/a-lilac-british-cat-with-a-blue-coat-looking-up-the-cat-opened-his-mouth-with-a-mad-look-the.jpg?s=612x612&w=0&k=20&c=taxLHL2AxrFzmSaGUqIk1jYNQ19LXvg3fxxFly0RHyY="
+            }
+          ]
+        },
+
+        "feedback": {
+                "title": "WHAT OUR CLIENTS SAY",
+                "items": [
+                    {
+                    "id": 1,
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "John Doe",
+                    "image": "https://m.media-amazon.com/images/I/911Nmervi+L.jpg"
+                    },
+                    {
+                    "id": 2,
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "Johnathan Doe",
+                    "image": "https://m.media-amazon.com/images/I/911Nmervi+L.jpg"
+                    },
+                    {
+                    "id": 3,
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "John Doe",
+                    "image": "https://m.media-amazon.com/images/I/911Nmervi+L.jpg"
+                    },
+                    {
+                    "id": 4,
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "Johnathan Doe",
+                    "image": "https://m.media-amazon.com/images/I/911Nmervi+L.jpg"
+                    },
+                    {
+                    "id": 5,
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "John Doe",
+                    "image": "https://m.media-amazon.com/images/I/911Nmervi+L.jpg"
+                    },
+                    {
+                    "id": 6,
+                    "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+                    "name": "Johnathan Doe",
+                    "image": "https://m.media-amazon.com/images/I/911Nmervi+L.jpg"
+                    }
+                ]
+                },
+                "contacts": {
+                    "title": "MEET THE TEAM",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec.",
+                    "members": [
+                        {
+                        "id": 1,
+                        "name": "John Doe",
+                        "role": "Director",
+                        "image": "https://www.shutterstock.com/image-photo/very-random-pose-asian-men-260nw-2423213779.jpg"
+                        },
+                        {
+                        "id": 2,
+                        "name": "Mike Doe",
+                        "role": "Senior Designer",
+                        "image": "https://www.shutterstock.com/image-photo/very-random-pose-asian-men-260nw-2423213779.jpg"
+                        },
+                        {
+                        "id": 3,
+                        "name": "Jane Doe",
+                        "role": "Senior Designer",
+                        "image": "https://www.shutterstock.com/image-photo/very-random-pose-asian-men-260nw-2423213779.jpg"
+                        },
+                        {
+                        "id": 4,
+                        "name": "Karen Doe",
+                        "role": "Project Manager",
+                        "image": "https://www.shutterstock.com/image-photo/very-random-pose-asian-men-260nw-2423213779.jpg"
+                        }
+                    ]
+                    },
+                    "getintouch": {
+                        "title": "GET IN TOUCH",
+                        "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+                        "contacts": [
+                            {
+                                "address": "4321 California St. San Francisco, CA 12345",
+                                "phone": "3700000000",
+                                "email": "email@company.com"
+                            }
+                        ]
+                    }
+
+
+
+}
+      
+

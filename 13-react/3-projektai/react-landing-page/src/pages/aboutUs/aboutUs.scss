@@ -1,0 +1,40 @@
+.about {
+    padding: 60px 0;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .subtitle {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .text {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .features-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .features-list li svg {
+    margin-right: 8px;
+    color: #007bff;
+    font-size: 1.1rem;
+  }
+  

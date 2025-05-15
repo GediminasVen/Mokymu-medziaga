@@ -1,0 +1,50 @@
+.services {
+    background: linear-gradient(135deg, #1a2949 0%, #36d1dc 100%);
+    color: #fff;
+    padding: 80px 0;
+  
+    .services-header {
+      h2 {
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+  
+      p {
+        max-width: 600px;
+        margin: 0 auto;
+        color: #e0e0e0;
+      }
+    }
+  
+    .service-item {
+      padding: 20px;
+  
+      h5 {
+        font-weight: 600;
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: 0.95rem;
+        color: #e0e0e0;
+      }
+  
+      .icon-wrapper {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        .service-icon {
+          font-size: 2rem;
+          color: #fff;
+        }
+      }
+    }
+  }
+  
