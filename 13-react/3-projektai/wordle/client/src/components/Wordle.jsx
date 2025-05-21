@@ -1,34 +1,44 @@
-import { useEffect } from "react"
-import useWordle from "../hooks/useWordle"
-import Grid from "./Grid"
+import { useEffect } from "react";
+import useWordle from "../hooks/useWordle";
+import Grid from "./Grid";
+import Keypad from "./Keypad";
 
-const Wordle = ({solution}) => {
-    const {currentGuess, handleKeyUp, turn, guesses, isCorrect} = useWordle(solution)
-
+const Wordle = ({solution, getNewWord}) => {
+    const {currentGuess, handleKeyup, turn, guesses, usedKeys, isCorrect, resetGame} = useWordle(solution);
+    
     useEffect(() => {
-        window.addEventListener('keyup', handleKeyUp)
+        window.addEventListener('keyup', handleKeyup);
+
+        if (isCorrect || turn > 5) {
+            window.removeEventListener('keyup', handleKeyup);
+        }
 
         return () => window.removeEventListener(
             'keyup',
-            handleKeyUp
-        )
-    }, [handleKeyUp])
+            handleKeyup
+        );
+    }, [handleKeyup, isCorrect, turn]);
 
-    useEffect(() => {
-        console.log(guesses, turn, isCorrect)
-    }, [guesses, turn, isCorrect])
+   const onNewGameClickHandler = () => {
+        getNewWord();
+        resetGame();
+    }
+
     return (
-        <>
-
-            <h3>
-            current guess --- {currentGuess}
-            </h3>
+        <>  
+            { isCorrect && <h3 className="won-title">you won</h3> }
+            { turn > 5 && <h3 className="lost-title">you lost</h3>}
+            { (isCorrect || turn > 5) && <button onClick={onNewGameClickHandler}>start new game</button>}
+            { !isCorrect && turn <= 5 && <h3> current guess --- {currentGuess} </h3>}
             <Grid 
-            currentGuess={currentGuess} 
-            guesses={guesses}
-            turn={turn}/>
+                currentGuess={currentGuess} 
+                guesses={guesses} 
+                turn={turn}
+            />
+            <Keypad usedKeys={usedKeys}/>
         </>
+        
     )
-}
+};
 
-export default Wordle
+export default Wordle;
