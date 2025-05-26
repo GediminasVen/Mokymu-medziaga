@@ -1,0 +1,73 @@
+{
+        "questions": [
+            {
+                "id": 1,
+                "question": "What is the capital of Lithuania",
+                "options": [
+                    {
+                        "id":1,
+                        "value": "Vilnius"
+                    },
+                    {
+                        "id":2,
+                        "value": "Kaunas"
+                    },
+                    {
+                        "id":3,
+                        "value": "Mariuke"
+                    },
+                    {
+                        "id":4,
+                        "value": "Kaukazas"
+                    }
+                ],
+                "answerId": 1
+            },
+            {
+                "id": 2,
+                "question": "Who is the PM of Lithuania",
+                "options": [
+                    {
+                        "id":21,
+                        "value": "Jonas"
+                    },
+                    {
+                        "id":22,
+                        "value": "Petras"
+                    },
+                    {
+                        "id":23,
+                        "value": "Vycka"
+                    },
+                    {
+                        "id":24,
+                        "value": "Algis"
+                    }
+                ],
+                "answerId": 23
+            },
+            {
+                "id": 1,
+                "question": "When LT got independence from USSR",
+                "options": [
+                    {
+                        "id":31,
+                        "value": 1990
+                    },
+                    {
+                        "id":32,
+                        "value": 1947
+                    },
+                    {
+                        "id":33,
+                        "value": 1918
+                    },
+                    {
+                        "id":34,
+                        "value": 1991
+                    }
+                ],
+                "answerId": 31
+            }
+        ]
+}
