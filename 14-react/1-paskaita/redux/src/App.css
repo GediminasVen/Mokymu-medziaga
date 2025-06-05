@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+input {
+  font-size: 26px;
+  width: 150px;
+  text-align: center;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 26px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.incBtn {
+  background-color: #005000;
+}
+
+.incBtn:hover {
+  background-color: #007900;
+}
+
+.decBtn {
+  background-color: #860303;
+}
+
+.decBtn:hover {
+  background-color: #b90000;
+}
+
+.resetBtn {
+  background-color: black;
+  font-size: 45px;
+  color: cyan;
+}
+
+.resetBtn:active {
+  background-color: green;
+  color: rgb(131, 203, 131);
+}
+
+.btn:active {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}

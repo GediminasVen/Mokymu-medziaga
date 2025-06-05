@@ -36,4 +36,20 @@ describe("todo component tests", () => {
 
     expect(divElements.length).toBe(3);
   });
+
+  test("should not have completed task status", () => {
+    render(<MockTodo />);
+    addTask(["buy tea"]);
+    const divElement = screen.getByText("buy tea");
+    expect(divElement).not.toHaveClass("todo-item-active");
+  });
+
+  test("should have active class when clicked", () => {
+    render(<MockTodo />);
+    addTask(["buy coffee"]);
+    const divElement = screen.getByText("buy coffee");
+    fireEvent.click(divElement);
+
+    expect(divElement).toHaveClass("todo-item-active");
+  });
 });
